@@ -1,0 +1,384 @@
+
+<!doctype html>
+<html class="no-js" lang="pt-br">
+  
+<!-- Mirrored from www.revelo.com.br/empresas/prima by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Aug 2018 16:48:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"100082364d","applicationID":"74877843","transactionName":"clZXEUtdXQ1VRBYGV1xJWAtQV0JOQ15WEg==","queueTime":3,"applicationTime":498,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <title>Conheça a empresa Sophia | Revelo</title>
+    <meta name="description" content="Sobre a empresa Sophia: ">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" type="image/png" href="../apple-touch-icon-60x60.png">
+    <link rel="icon" type="image/png" href="../favicon-196x196.png" sizes="196x196" >
+    <link rel="icon" type="image/png" href="../favicon-96x96.png" sizes="96x96" >
+    <link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32" >
+    <link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16" >
+    <link rel="icon" type="image/png" href="../favicon-128.png" sizes="128x128" >
+    <!-- Place favicon.ico in the root directory -->
+
+    <meta property="og:site_name" content="Revelo">
+    <meta property="og:title" content="Conheça a empresa Sophia | Revelo">
+    <meta property="og:description" content="Sobre a empresa Sophia: ">
+    <meta property="og:url" content="https://www.revelo.com.br/empresas/prima">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="pt_BR" >
+    <meta property="og:type" content="website" >
+    <meta property="og:image" content="">
+
+    <meta name="twitter:card" content="summary_large_image" >
+    <meta name="twitter:description" content="Sobre a empresa Sophia: " >
+    <meta name="twitter:title" content="Conheça a empresa Sophia | Revelo" >
+    <meta name="twitter:site" content="@revelojobs" >
+    <meta name="twitter:image" content="" >
+    <meta name="twitter:creator" content="@revelojobs" >
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="uC31YGyorSBR6vLgaxMtQo/CX0WJzoCCUNRwiXmm9QUh8Kxil/MmXYex6hnIyOnhqlJNbfjkcWV6nA77cpXDmA==" />
+
+    <link rel="canonical" href="prima.html" >
+  </head>
+
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <div class="loader-wrapper">
+  <div class="sk-cube-grid">
+    <div class="sk-cube sk-cube1"></div>
+    <div class="sk-cube sk-cube2"></div>
+    <div class="sk-cube sk-cube3"></div>
+    <div class="sk-cube sk-cube4"></div>
+    <div class="sk-cube sk-cube5"></div>
+    <div class="sk-cube sk-cube6"></div>
+    <div class="sk-cube sk-cube7"></div>
+    <div class="sk-cube sk-cube8"></div>
+    <div class="sk-cube sk-cube9"></div>
+  </div>
+</div>
+
+    <nav class="navbar navbar-expand-lg navbar-light revelo-navbar">
+  <a class="navbar-brand revelo-logo" href="../index.html">
+    <img src="../assets/logo-revelo-e45dd13962ad57070e95bfc93814d77c74f7c1b45b1479f5d75faef9cce5b0b2.svg" />
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="custom-collapse" data-target="body">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse revelo-menu" id="reveloMenu">
+    <a class="btn close-revelo-menu" href="#" data-toggle="custom-collapse" data-target="body"><em class="r-icon cancel"></em></a>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a href="../sobre-revelo.html" class="nav-link">Sobre a Revelo</a>
+        </li>
+        <li class="nav-item ">
+          <a href="../como-funciona.html" class="nav-link">Como funciona</a>
+        </li>
+        <li class="nav-item ">
+          <a href="../para-empresas.html" class="nav-link">Para empresas</a>
+        </li>
+        <li class="nav-item ">
+          <a href="../para-profissionais.html" class="nav-link">Para profissionais</a>
+        </li>
+        <li class="nav-item login-area">
+          <a href="https://app.revelo.com.br/users/sign_in" class="nav-link">Entrar | Cadastrar <em class="r-icon arrow-right"></em></a>
+        </li>
+    </ul>
+  </div>
+</nav>
+
+<link rel="stylesheet" media="all" href="../assets/header-96d57830bf02efc0201f09fe63beaf49a0b928a43b35f192de9b646bee18a36b.css" data-turbolinks-track="reload" />
+
+
+    
+
+
+<section class="company-profile-area with-sub-header">
+  <div class="container over-content">
+    <div class="row">
+      <div class="col">
+        <nav aria-label="breadcrumb" role="navigation">
+          <ol class="breadcrumb revelo-breadcrumb">
+            <li class="breadcrumb-item"><a href="../empresas.html">Empresas</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Sophia</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="container white-bg over-content">
+  <header class="row with-bottom-separator header-profile">
+    <div class="col centered company-avatar">
+      <img class="img-fluid" src="../../s3.amazonaws.com/sample-login/companies/avatars/000/006/795/original/Sophia3e91.png?1532636080" />
+    </div>
+
+    <div class="col-lg-6 col-md-12 company-header">
+      <h1 class="profile-header-title">Sophia</h1>
+      <h2 class="profile-header-description"></h2>
+
+      <div class="row list-profile-details">
+        <div class="col-md-4 list-item">
+          <strong>São Jose dos Campos</strong>
+        </div>
+
+        <div class="col-md-4 list-item">
+          <strong>101-500 funcionários</strong>
+        </div>
+
+        <div class="col-md-4 list-item">
+          <a href="https://www.sophia.com.br/">https://www.sophia.com.br/</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-12 centered">
+      <div class="content-actions">
+        <a href="https://app.revelo.com.br/pages/user_register/empresas" class="btn call-to-action">Cadastre-se gratuitamente</a>
+        <p class="action-message">E receba ofertas de emprego</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="row profile-content">
+    <div class="col-md-12 col-lg-8">
+        <h3 class="profile-content-title">Venha trabalhar na(o) Sophia</h3>
+        <div class="content">
+          Na Prima, empresa desenvolvedora da linha de softwares SophiA, nós acreditamos que a tecnologia deve ser uma facilitadora no dia-a-dia de escolas, bibliotecas e instituições com acervos não bibliográficos. 
+
+Por meio das nossas soluções mais de 2500 clientes, espalhados por todos os estados brasileiros e também no exterior, otimizam o tempo utilizado na organização dos dados e focam no que é realmente sua vocação: a gestão do conhecimento.
+        </div>
+
+        <ul class="list-images">
+        </ul>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="company-info">
+          <h3 class="profile-content-title">Áreas que está contratado</h3>
+
+          <ul>
+              <li>Desenvolvedor</li>
+          </ul>
+        </div>
+
+
+    </div>
+  </div>
+</div>
+
+  <section class="content-area">
+  <div class="container">
+    <div class="row">
+      <article class="col-md-12">
+        <div class="row">
+          <header>
+            <h2 class="default-title margin-bottom-sm">Outras empresas</h2>
+          </header>
+        </div>
+      </article>
+
+      <ul class="list-companies-profile">
+          <li class="list-item">
+            <figure class="company-avatar">
+              <a href="banco-alfa.html"><img alt="Banco Alfa" src="../../s3.amazonaws.com/sample-login/companies/avatars/000/006/791/original/alf2a77.png?1530566165" /></a>
+            </figure>
+
+            <div class="company-description">
+              <h3 class="company-title"><a href="banco-alfa.html">Banco Alfa</a></h3>
+
+
+                <p>
+                  <a title="Banco Alfa está contratado" href="banco-alfa.html">
+                    <strong>Está contratando: </strong> Marketing Online, Desenvolvedor
+</a>                </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <figure class="company-avatar">
+              <a href="mutant.html"><img alt="Mutant" src="../../s3.amazonaws.com/sample-login/companies/avatars/000/005/978/original/mutantfec5.png?1522857809" /></a>
+            </figure>
+
+            <div class="company-description">
+              <h3 class="company-title"><a href="mutant.html">Mutant</a></h3>
+
+
+                <p>
+                  <a title="Mutant está contratado" href="mutant.html">
+                    <strong>Está contratando: </strong> Business Intelligence, Desenvolvedor
+</a>                </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <figure class="company-avatar">
+              <a href="s2-it-solutions-consultoria-ltda.html"><img alt="S2 IT Solutions Consultoria Ltda" src="../../s3.amazonaws.com/sample-login/companies/avatars/000/000/038/original/whats6b1e.png?1435265818" /></a>
+            </figure>
+
+            <div class="company-description">
+              <h3 class="company-title"><a href="s2-it-solutions-consultoria-ltda.html">S2 IT Solutions Consultoria Ltda</a></h3>
+
+
+                <p>
+                  <a title="S2 IT Solutions Consultoria Ltda está contratado" href="s2-it-solutions-consultoria-ltda.html">
+                    <strong>Está contratando: </strong> Desenvolvedor - Full-stack, Desenvolvedor - Front-end, Desenvolvedor - Back-end
+</a>                </p>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+</section>
+
+
+
+
+      <section class="separator-strip">
+    <div class="block1">
+      <img src="../assets/footer/img1-edf9ea6a9a52e9c35837f05771846023187854eabaf7a858d3744b5b1e2dd116.png" />
+    </div>
+    <div class="block2">
+      <img src="../assets/footer/img2-fbcdae2753dbdd2e800ad425df2aa6e5c6979e469a800c4bd3e0f496895daf2c.png" />
+    </div>
+    <div class="block3">
+      <img src="../assets/footer/img3-67c354e06c266450c3b35e8c2266670c65a7f5a24ca3159ba65fd31da714f0a0.png" />
+      <div class="revelo-mark"><img src="../assets/marca-revelo-7f01c21ff66207c1dc3c1c222e2b0eeffaeebdef63ef4cbf667e1c3b45a028e1.svg" /></div>
+    </div>
+  </section>
+
+<footer class="footer-revelo">
+  <div class="container">
+    <div class="footer-menus">
+        <ul class="footer-menu">
+          <li class="header"><h3 class="footer-menu-title">Candidatos</h3></li>
+          <li class="list-item "><a href="../para-profissionais.html">Para candidatos</a></li>
+          <li class="list-item "><a href="../depoimentos.html">Depoimentos</a></li>
+          <li class="list-item"><a href="https://app.revelo.com.br/users/sign_in">Cadastre-se</a></li>
+          <li class="list-item"><a href="https://app.revelo.com.br/ambassadors">Indique amigos</a></li>
+          <li class="list-item"><a href="../empresas.html">Empresas contratando</a></li>
+        </ul>
+
+        <ul class="footer-menu">
+          <li class="header"><h3 class="footer-menu-title">Empresas</h3></li>
+          <li class="list-item "><a href="../sobre-revelo.html">Nossa nova identidade</a></li>
+          <li class="list-item "><a href="../para-empresas.html">Para empresas</a></li>
+          <li class="list-item"><a href="https://app.revelo.com.br/pages/user_register/empresas">Cadastre-se</a></li>
+        </ul>
+
+      <ul class="social-icons">
+        <li>
+          <a class="facebook" target="_blank" href="https://facebook.com/revelojobs">
+            <svg version="1.1" height='30px' width='30px' id="Facebook_w_x2F__circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+              <path d="M10,0.4c-5.302,0-9.6,4.298-9.6,9.6s4.298,9.6,9.6,9.6s9.6-4.298,9.6-9.6S15.302,0.4,10,0.4z M12.274,7.034h-1.443
+                c-0.171,0-0.361,0.225-0.361,0.524V8.6h1.805l-0.273,1.486H10.47v4.461H8.767v-4.461H7.222V8.6h1.545V7.726
+                c0-1.254,0.87-2.273,2.064-2.273h1.443V7.034z"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" class="g-plus" href="https://plus.google.com/u/1/117598181727966138385">
+            <svg version="1.1" height='30px' width='30px' id="Google_x2B__w_x2F__circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+              <path d="M10,0.4c-5.302,0-9.6,4.298-9.6,9.6s4.298,9.6,9.6,9.6s9.6-4.298,9.6-9.6S15.302,0.4,10,0.4z M9.447,14.121
+                c-0.603,0.293-1.252,0.324-1.503,0.324c-0.048,0-0.075,0-0.075,0s-0.023,0-0.054,0c-0.392,0-2.343-0.09-2.343-1.867
+                c0-1.746,2.125-1.883,2.776-1.883h0.017c-0.376-0.502-0.298-1.008-0.298-1.008C7.934,9.689,7.886,9.691,7.827,9.691
+                c-0.245,0-0.718-0.039-1.124-0.301c-0.498-0.32-0.75-0.865-0.75-1.619c0-2.131,2.327-2.217,2.35-2.219h2.324v0.051
+                c0,0.26-0.467,0.311-0.785,0.354C9.734,5.973,9.517,5.994,9.456,6.025c0.589,0.315,0.684,0.809,0.684,1.545
+                c0,0.838-0.328,1.281-0.676,1.592C9.248,9.355,9.079,9.506,9.079,9.709c0,0.199,0.232,0.402,0.502,0.639
+                c0.441,0.389,1.046,0.918,1.046,1.811C10.627,13.082,10.23,13.742,9.447,14.121z M14.5,10H13v1.5h-1V10h-1.5V9H12V7.5h1V9h1.5V10z
+                 M8.223,11.15c-0.052,0-0.104,0.002-0.157,0.006c-0.444,0.033-0.854,0.199-1.15,0.469c-0.294,0.266-0.444,0.602-0.423,0.941
+                c0.045,0.711,0.808,1.127,1.735,1.061c0.912-0.066,1.52-0.592,1.476-1.303C9.662,11.656,9.081,11.15,8.223,11.15z M9.097,7.285
+                c-0.242-0.85-0.632-1.102-1.238-1.102c-0.065,0-0.131,0.01-0.194,0.027C7.402,6.285,7.193,6.504,7.077,6.83
+                C6.958,7.16,6.951,7.504,7.053,7.896c0.185,0.701,0.683,1.209,1.185,1.209c0.066,0,0.132-0.008,0.194-0.027
+                C8.981,8.924,9.325,8.086,9.097,7.285z"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" class="linkedin" href="https://www.linkedin.com/company/revelojobs">
+            <svg version="1.1" height='30px' width='30px' id="LinkedIn_w_x2F__circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+              <path d="M10,0.4c-5.302,0-9.6,4.298-9.6,9.6s4.298,9.6,9.6,9.6s9.6-4.298,9.6-9.6S15.302,0.4,10,0.4z M7.65,13.979H5.706V7.723H7.65
+              V13.979z M6.666,6.955c-0.614,0-1.011-0.435-1.011-0.973c0-0.549,0.409-0.971,1.036-0.971c0.627,0,1.011,0.422,1.023,0.971
+              C7.714,6.52,7.318,6.955,6.666,6.955z M14.75,13.979h-1.944v-3.467c0-0.807-0.282-1.355-0.985-1.355
+              c-0.537,0-0.856,0.371-0.997,0.728c-0.052,0.127-0.065,0.307-0.065,0.486v3.607H8.814v-4.26c0-0.781-0.025-1.434-0.051-1.996h1.689
+              l0.089,0.869h0.039c0.256-0.408,0.883-1.01,1.932-1.01c1.279,0,2.238,0.857,2.238,2.699V13.979z"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" class="medium" href="https://medium.com/@revelo">
+            <svg version="1.1" height='30px' width='30px' id="Medium_w_x2F__circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+              <path d="M10,0.3999634c-5.3019409,0-9.5999756,4.2980957-9.5999756,9.6000366S4.6980591,19.5999756,10,19.5999756
+              S19.5999756,15.3019409,19.5999756,10S15.3019409,0.3999634,10,0.3999634z M14.2000122,7.666687h-0.1165771
+              c0,0-0.3500977,0-0.3500977,0.3500977c0,0.3500366,0,3.9666748,0,3.9666748s0,0.3497925,0.3500977,0.3497925h0.1165771v0.9333496
+              h-2.7999878V12.333252h0.4666138V7.9933472h-0.0466309l-1.4301147,5.2732544H9.1304321L7.7133179,7.9933472H7.666687v4.3399048
+              h0.4666748v0.9333496h-2.333374V12.333252h0.1165771c0,0,0.3500977,0,0.3500977-0.3500366s0-3.9667358,0-3.9667358
+              s0-0.3497925-0.3500977-0.3497925H5.7999878V6.7333984H8.895874l1.0858765,4.0408325h0.0357666l1.0959473-4.0408325h3.0865479
+              V7.666687z"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://twitter.com/revelojobs" class="twitter">
+            <svg version="1.1" height='30px' width='30px' id="Twitter_w_x2F__circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+              <path d="M10,0.4c-5.302,0-9.6,4.298-9.6,9.6s4.298,9.6,9.6,9.6s9.6-4.298,9.6-9.6S15.302,0.4,10,0.4z M13.905,8.264
+                c0.004,0.082,0.005,0.164,0.005,0.244c0,2.5-1.901,5.381-5.379,5.381c-1.068,0-2.062-0.312-2.898-0.85
+                c0.147,0.018,0.298,0.025,0.451,0.025c0.886,0,1.701-0.301,2.348-0.809c-0.827-0.016-1.525-0.562-1.766-1.312
+                c0.115,0.021,0.233,0.033,0.355,0.033c0.172,0,0.34-0.023,0.498-0.066c-0.865-0.174-1.517-0.938-1.517-1.854V9.033
+                C6.257,9.174,6.549,9.26,6.859,9.27C6.351,8.93,6.018,8.352,6.018,7.695c0-0.346,0.093-0.672,0.256-0.951
+                c0.933,1.144,2.325,1.896,3.897,1.977c-0.033-0.139-0.049-0.283-0.049-0.432c0-1.043,0.846-1.891,1.891-1.891
+                c0.543,0,1.035,0.23,1.38,0.598c0.431-0.086,0.835-0.242,1.2-0.459c-0.141,0.441-0.44,0.812-0.831,1.047
+                c0.383-0.047,0.747-0.148,1.086-0.299C14.595,7.664,14.274,7.998,13.905,8.264z"/>
+            </svg>
+          </a>
+        </li>
+
+      </ul>
+
+      <div class="languages-area">
+          <a href="../english.html" class="btn language-flags"><em class="r-icon"><img src="../assets/icons/us-flag-180a3c64dedfdc37d87005d573284cce93e1a72022dcc48f0d939d83d6c0a63b.svg" /></em> English</a>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2014-2018 CONTRATADO LLC. (CNPJ: 12.609.001/0001-17) Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+
+    <noscript id="deferred-styles">
+      <link rel="stylesheet" media="all" href="../assets/application-f09486e95eb3baa2f3883af3fdf6a6e83349b9fed58b9c414ead86fac3b31a36.css" data-turbolinks-track="reload" />
+      
+    </noscript>
+
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
+
+      <script src="../assets/application-9d3b1aa3eadd2b09334b82f8ef4916b2b13fc440c3cca23d0d515fd547d9f8d3.js" data-turbolinks-track="reload"></script>
+
+      <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TW2CR8');</script>
+      <!-- End Google Tag Manager -->
+
+    
+  </body>
+
+<!-- Mirrored from www.revelo.com.br/empresas/prima by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Aug 2018 16:48:24 GMT -->
+</html>
